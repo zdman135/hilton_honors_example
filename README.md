@@ -1,4 +1,4 @@
-Dashboard (Shoe Store Site)
+Hilton Honors Site
 ==========================
 
 Example Test Automation Framework for Hilton Honors Site
