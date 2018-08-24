@@ -7,7 +7,7 @@ Should work in MacOs, Linux, or Windows
 But developed and tested in MacOs, but have not tested in other environments
 
 ```
-dependencies:
+dependencies for MacOs:
 install xcode
 install xcode dev tools
 ensure you have accepted license agrement for xcode
