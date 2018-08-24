@@ -7,7 +7,7 @@ When(/^I search for a week long trip to a popular destination$/) do
   @destination = @dashboard.search_bar.popular_destination
   
   @dashboard.search_bar.week_long_trip_search @destination
-  @dashboard.browser.a(class:'find_button cta_button').click
+  @dashboard.browser.link(class: 'find_button').click
 end
 
 Then(/^I should see results for the popular destination$/) do
