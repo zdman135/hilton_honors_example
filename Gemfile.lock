@@ -1,0 +1,213 @@
+GIT
+  remote: https://github.com/svoop/autotest-fsevent.git
+  revision: 12b3b52551f155a8f159f8946c0789a2a3e41666
+  specs:
+    autotest-fsevent (0.2.13)
+      sys-uname
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    Selenium (1.1.14)
+    ZenTest (4.11.1)
+    activemodel (5.1.2)
+      activesupport (= 5.1.2)
+    activerecord (5.1.2)
+      activemodel (= 5.1.2)
+      activesupport (= 5.1.2)
+      arel (~> 8.0)
+    activesupport (5.1.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    arel (8.0.0)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
+    autotest-growl (0.2.16)
+    builder (3.2.3)
+    capybara (2.14.4)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    childprocess (0.7.1)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.1)
+    commonwatir (4.0.0)
+    concurrent-ruby (1.0.5)
+    cucumber (2.4.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    cukeforker (1.1.0)
+      cucumber (>= 2.0.0)
+      vnctools (>= 0.0.5)
+    cukeforker-webdriver (0.0.1)
+      capybara
+      childprocess
+      cucumber
+      gherkin
+      rspec
+      selenium-webdriver
+    diff-lcs (1.3)
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    factory_girl (4.8.0)
+      activesupport (>= 3.0.0)
+    faker (1.7.3)
+      i18n (~> 0.5)
+    fakeweb (1.3.0)
+    ffi (1.9.18)
+    firewatir (1.9.4)
+      commonwatir (>= 1.9.2)
+    gherkin (4.1.3)
+    hoe (3.16.0)
+      rake (>= 0.8, < 13.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    httparty (0.15.5)
+      multi_xml (>= 0.5.2)
+    httpclient (2.8.3)
+    i18n (0.8.4)
+    mail (2.6.6)
+      mime-types (>= 1.16, < 4)
+    metaclass (0.0.4)
+    method_source (0.8.2)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.2.0)
+    minitest (5.10.2)
+    mocha (1.2.1)
+      metaclass (~> 0.0.1)
+    multi_json (1.12.1)
+    multi_test (0.1.2)
+    multi_xml (0.6.0)
+    net-ssh (4.1.0)
+    netrc (0.11.0)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    os (1.0.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    public_suffix (2.0.5)
+    rack (2.0.3)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rake (12.0.0)
+    recursive-open-struct (1.0.5)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    rspec_junit_formatter (0.3.0)
+      rspec-core (>= 2, < 4, != 2.12.0)
+    rubyzip (1.2.1)
+    s4t-utils (1.0.4)
+      hoe (>= 1.3.0)
+    selenium-webdriver (3.4.3)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+    slop (3.6.0)
+    sys-uname (1.0.3)
+      ffi (>= 1.0.0)
+    taza (2.1.0)
+      Selenium (~> 1.1.14)
+      activesupport (>= 3.2.0)
+      firewatir (~> 1.9.4)
+      mocha (>= 0.9.3)
+      rake (>= 0.9.2)
+      rspec (~> 3.0)
+      thor (>= 0.18.1)
+      user-choices (~> 1.1.6.1)
+      watir (>= 5.0.0)
+      watir-webdriver (~> 0.4)
+    thor (0.19.4)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
+    user-choices (1.1.6.1)
+      builder (>= 2.1.2)
+      s4t-utils (>= 1.0.3)
+      xml-simple (>= 1.0.11)
+    vcr (3.0.3)
+    vnctools (0.1.1)
+      childprocess
+    watir (6.3.0)
+      selenium-webdriver (~> 3.0)
+    watir-webdriver (0.9.9)
+      selenium-webdriver (>= 2.46.2)
+    webdrivers (2.4.0)
+      nokogiri (~> 1.6)
+      rubyzip (~> 1.0)
+    xml-simple (1.1.5)
+    xpath (2.1.0)
+      nokogiri (~> 1.3)
+    yarjuf (2.0.0)
+      builder
+      rspec (~> 3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  autotest
+  autotest-fsevent!
+  autotest-growl
+  cucumber
+  cukeforker
+  cukeforker-webdriver
+  factory_girl
+  faker
+  fakeweb
+  httparty
+  httpclient
+  mail
+  net-ssh
+  nokogiri
+  os
+  pry
+  recursive-open-struct
+  rest-client
+  rspec
+  rspec_junit_formatter
+  taza
+  vcr
+  watir
+  watir-webdriver
+  webdrivers
+  yarjuf
+
+BUNDLED WITH
+   1.16.0
